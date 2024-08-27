@@ -108,6 +108,16 @@ const faqItems: FAQItem[] = [
     answer:
       "Nor again is there anyone who loves or pursues or desires to obtain pain of itself...",
   },
+  {
+    question: "Bridging Vision With Strategy For Success.",
+    answer:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes...",
+  },
+  {
+    question: "Bridging Vision With Strategy For Success.",
+    answer:
+      "Nor again is there anyone who loves or pursues or desires to obtain pain of itself...",
+  },
   // Add more FAQ items here
  ];
 
@@ -119,25 +129,25 @@ const faqItems: FAQItem[] = [
  };
 
    return (
-    <section id="Faq" className="py-6 my-5 space-y-6">
+    <section id="Faq" className="py-6 my-5 space-y-2 lg:space-y-6 md:space-y-4">
       <div className="text-center align-middle items-center space-y-3">
         <Link href={"#Faq"} className="text-blue-400 text-center">
           FAQs
         </Link>
-        <h2 className="text-3xl font-bold text-center lg:text-center md:text-left mb-8">
+        <h2 className="text-3xl font-bold text-center lg:text-center md:text-center mb-8">
           Frequently Asked Questions
         </h2>
       </div>
       <div className="w-full flex flex-col md:flex-row">
         {/* Image Placeholder */}
-        <div className="relative flex w-full md:w-1/3">
-          <div className="bg-indigo-600 w-4/6 h-[950px] md:h-96 rounded-r-xl mb-8 md:mb-0 md:mr-8 relative">
-            <div className="absolute bg-gray-400 w-[550px] h-[290px] rounded-3xl  left-8 md:left-12 md:top-14"></div>
+        <div className="relative flex w-full md:w-1/4  ">
+          <div className=" bg-indigo-600 md:block md:w-auto md:h-auto lg:w-5/6 lg:h-[550px]  rounded-r-xl mb-8 md:mb-0 md:mr-8 relative">
+            <div className="absolute bg-gray-400 w-auto h-auto lg:w-[550px] lg:h-[430px] rounded-3xl  left-8 md:left-12 md:top-14"></div>
           </div>
         </div>
 
 
-<div className="ml-48 mt-16 w-1/3 ">
+<div className="mx-5 mt-16 w-auto lg:w-1/3 lg:ml-96 md:mx-2">
   <ul>
     {faqItems.map((item, index) => (
       <li key={index} className="mb-4">

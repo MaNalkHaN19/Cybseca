@@ -12,11 +12,11 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   description,
 }) => (
   <>
-    <div id="services" className="flex flex-col justify-center  align-middle mx-16 my-6 rounded-3xl hover:shadow-lg border-indigo-200 border-2 transition-shadow duration-300">
-      <div className="flex flex-row  items-center p-6 space-x-4">
-          <div className="bg-indigo-500 p-4  rounded-lg text-white justify-center">{icon}</div>
-        <div className="flex items-center space-x-4 text-center content-center">
-          <h3 className="text-xl font-semibold ">{title}</h3>
+    <div id="services" className="flex flex-col justify-center  align-middle mx-12 my-6 rounded-3xl hover:shadow-lg border-indigo-200 border-2 transition-shadow duration-300">
+      <div className="flex flex-row items-center p-6 space-x-3">
+          <div className="bg-indigo-500 p-4 rounded-lg text-white justify-center">{icon}</div>
+        <div className="flex items-center space-x-3 text-center content-center">
+          <h3 className="text-lg font-semibold ">{title}</h3>
         </div>
       </div>
       <div className="bg-white flex flex-col items-center justify-center rounded-3xl p-6 space-y-4  transition-shadow duration-300">
@@ -45,11 +45,11 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 const ServicesSection: React.FC = () => {
   return (
     <section className="py-20">
-      <div className="text-center mb-12">
+      <div className="text-center mb-122">
         <h2 className="text-indigo-600 text-lg font-semibold">Our Services</h2>
         <h1 className="text-3xl font-bold">Best Services We Offer For You</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-4 lg:px-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   lg:px-0 justify-evenly">
         <ServiceCard
           icon={
             <svg

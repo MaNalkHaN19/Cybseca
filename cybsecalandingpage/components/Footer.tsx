@@ -75,6 +75,8 @@ const Footer: React.FC = () => {
 
           <div className="flex md:ml-4 lg:ml-6 pt-9 space-x-4">
             <svg
+              className="hover:cursor-pointer"
+              href="https://www.x.com/feed/"
               width="24"
               height="20"
               viewBox="0 0 24 20"
@@ -87,6 +89,8 @@ const Footer: React.FC = () => {
               />
             </svg>
             <svg
+              className="hover:cursor-pointer"
+              href="https://www.linkedin.com/feed/"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -106,6 +110,8 @@ const Footer: React.FC = () => {
               </defs>
             </svg>
             <svg
+              className="hover:cursor-pointer"
+              href="https://www.facebook.com/feed/"
               width="24"
               height="24"
               viewBox="0 0 24 24"
